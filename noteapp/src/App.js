@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { Notes } from "./components/notes";
 
 function App() {
   return (
     <div className="App">
-      <h1>hii alishan</h1>
+      <Notes />
     </div>
   );
 }
